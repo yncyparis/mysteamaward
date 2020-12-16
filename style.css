@@ -1,0 +1,57 @@
+body{
+  margin:0px;
+}
+}
+a {
+  color:violet;
+  text-decoration: none;
+}
+#wiki{
+  color: gray;
+  text-decoration: underline;
+}
+#trailor{
+  text-decoration: overline;
+  font-style: italic;
+}
+#active{
+  color: purple;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  border-bottom: gray 2px solid;
+}
+img{
+  margin-top: 20px;
+}
+#grid ol{
+  width: 160px;
+  border-right: gray 2px solid;
+  margin: 0px;
+  padding: 20px;
+  padding-left: 40px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+#article{
+  padding-left: 25px;
+}
+@media(max-width: 880px){
+  #grid{
+    display: block;
+  }
+  #grid ol{
+    border-right: none;
+  }
+  h1{
+    border-bottom: none;
+  }
+}
+/* css의 주석
+element는 곧 태그 */
